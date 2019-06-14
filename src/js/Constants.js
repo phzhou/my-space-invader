@@ -1,0 +1,51 @@
+const WIDTH = 300;
+const HEIGHT = 550;
+
+const TOP_OFFSET = 50;
+const BOTTOM_OFFSET = 50;
+
+const FPS = 30;
+const PLAYER_SIZE = 20;
+
+const PLAYER_BULLET_WIDTH = 3;
+const PLAYER_BULLET_HEIGHT = 11;
+
+const INVADER_SIZE = 20;
+const INVADER_INTERVAL = 10;
+const SCORE_PER_INVADER = 100;
+const INVADER_ANIME_FRAMES = FPS * 1;
+
+const MOVE_NONE = 0;
+const MOVE_LEFT = 1;
+const MOVE_RIGHT = 2;
+
+const GAME_ON = 0;
+const GAME_OVER = 1;
+const GAME_WON = 2;
+
+module.exports = {
+  WIDTH,
+  HEIGHT,
+
+  TOP_OFFSET,
+  BOTTOM_OFFSET,
+
+  FPS,
+  PLAYER_SIZE,
+
+  PLAYER_BULLET_WIDTH,
+  PLAYER_BULLET_HEIGHT,
+
+  INVADER_SIZE,
+  INVADER_INTERVAL,
+  SCORE_PER_INVADER,
+  INVADER_ANIME_FRAMES,
+
+  MOVE_NONE,
+  MOVE_LEFT,
+  MOVE_RIGHT,
+
+  GAME_ON,
+  GAME_OVER,
+  GAME_WON,
+};
